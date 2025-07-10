@@ -13,7 +13,7 @@ pm-25model/
 │   ├── savedmodels/           # Trained LightGBM models (joblib files)
 │   ├── trained.py             # Script to train and save ensemble models
 │   ├── predict.py             # Script to predict PM2.5 using saved models
-│   ├── delhidata.csv          # Cleaned dataset used for training and testing
+│   ├── Delhi_data.csv          # Cleaned dataset used for training and testing
 │   └── requirements.txt       # Python dependencies
 │
 └── README.md                  # Project documentation
