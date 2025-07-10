@@ -31,7 +31,7 @@ import os
 # ========================
 # Load and Clean Dataset
 # ========================
-df = pd.read_csv("Delhi_PM25_2020_2022_CLEANED_categorical_updated2.csv")
+df = pd.read_csv("Delhi_data.csv")
 df.columns = df.columns.str.strip()
 df['date'] = pd.to_datetime(df['Date'], dayfirst=True, errors='coerce')
 df = df[(df['date'] >= '2020-01-01') & (df['date'] <= '2021-12-31')].copy()
