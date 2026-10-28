@@ -10,7 +10,7 @@ This project predicts PM2.5 concentrations in Delhi (2020–2021) using satellit
 pm-25model/
 │
 ├── model/
-│   ├── savedmodels/                # Trained LightGBM models (joblib files)
+│   ├── saved_models/                # Trained LightGBM models (joblib files)
 │   ├── train_pm25_model.py         # Script to train and save ensemble models
 │   ├── predict_pm25_input.py       # Script to predict PM2.5 using saved models
 │   ├── Delhi_data.csv              # Cleaned dataset used for training and testing
